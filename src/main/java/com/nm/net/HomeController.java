@@ -27,6 +27,7 @@ public class HomeController {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		logger.info("We are in First Method");
 		logger.info("We are in Second Method");
+		logger.info("We are in Third Method");
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);
